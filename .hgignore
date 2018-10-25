@@ -1,0 +1,4 @@
+gschemas.compiled
+
+syntax: glob
+*.mo

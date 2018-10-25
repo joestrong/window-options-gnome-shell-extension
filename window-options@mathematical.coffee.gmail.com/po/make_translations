@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# CREDIT: from AxeMenu  extension (https://extensions.gnome.org/extension/327/axe-menu/)
+# this is a script which avoids having to install intltool just to
+# translate four phrases
+
+# apt-get install gettext
+
+# to add a translation - add the language to LINGUAS, copy
+# TEMPLATE.PO to a po file for the language, and then run this script
+
+for file in `sed '/^#/d' LINGUAS`
+do
+
+if ! [ -d ../locale/$file/LC_MESSAGES ]; then
+  mkdir -p ../locale/$file/LC_MESSAGES
+fi
+
+msgfmt $file.po
+mv messages.mo ../locale/$file/LC_MESSAGES/window-options.mo
+
+done

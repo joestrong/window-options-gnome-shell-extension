@@ -1,0 +1,22 @@
+The window options extension uses translations from the Mutter domain.
+Huge kudos to all the translators who contributed to that!
+
+There are also some additional translations for strings not in Mutter, and they
+ live here (like 'Raise', 'Lower', ...)
+
+**Help is needed to translate these few extra strings!**
+
+If you think you can help out, then copy TEMPLATE.po to <your_language_code>.po
+ and add the appropriate translations.
+Also add your language code to the LINGUAS file.
+
+Then to have it take affect, run the 'make_translations' script.
+
+Then email the new .po file to me at <mathematical.coffee@gmail.com> and I'll
+ include it in the distribution!
+
+Also include yourself in the CREDITS below (you deserve it)!
+
+CREDITS
+-------
+The 'make_translations' script was taken from the Axe Menu extension (https://extensions.gnome.org/extension/327/axe-menu/).

@@ -1,0 +1,19 @@
+{
+  "description": "Adds window options (always on top, always on visible workspace, ...) to right-click menu of title bar in the panel.\n\nNote: this extension may not play well with other extensions that also modify the appMenu, particularly if they destroy it rather than just patching it. If you make sure window options loads *after* the other extensions it might work.", 
+  "name": "Window options", 
+  "shell-version": [
+    "3.2",
+    "3.4",
+    "3.6",
+    "3.8",
+    "3.10",
+    "3.12",
+    "3.14",
+    "3.16",
+    "3.30"
+  ],
+  "url":"https://bitbucket.org/mathematicalcoffee/window-options-gnome-shell-extension",
+  "uuid": "window-options@mathematical.coffee.gmail.com", 
+  "version": 5,
+  "dev-version": "2.1.2_gnome3.2"
+}

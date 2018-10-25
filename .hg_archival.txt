@@ -1,0 +1,6 @@
+repo: 0403540a751c9d7cbaaf27985682e13e30ec95d7
+node: ba352408fbd05b51b1b25e95e2e6edc1159cb961
+branch: default
+latesttag: v2.1.2_gnome3.2
+latesttagdistance: 1
+changessincelatesttag: 1

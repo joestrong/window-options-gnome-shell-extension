@@ -1,0 +1,24 @@
+# @YOUR_LANGUAGE@ translation for window-options.
+# Add credits to yourself here and in the README file (you deserve it).
+msgid ""
+msgstr ""
+"Project-Id-Version: window-options\n"
+# YOUR LANGUAGE HERE (delete this line later):
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# STRINGS UNIQUE TO WINDOW OPTIONS #
+msgid "Window Options"
+msgstr ""
+
+msgid "Lower"
+msgstr ""
+
+msgid "Raise"
+msgstr ""
+
+#. Translators: leave 'gir1.0-wnck-3.0' alone.
+msgid "You need the Wnck GIR package (e.g. gir1.0-wnck-3.0) in order to have 'Always on Visible Workspace' and 'Always on Top' items."
+msgstr ""
